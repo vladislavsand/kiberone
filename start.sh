@@ -24,7 +24,7 @@ cd "$ROOT"
 
 echo "==> Building frontend..."
 cd pr
-npm ci
+npm install
 npm run build
 cd "$ROOT"
 
